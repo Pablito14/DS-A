@@ -30,6 +30,20 @@ public class LinkedList {
         return false;
     }
 
+    public void append(int valueToAppend){
+        Node newLastNode = new Node(valueToAppend, null);
+        Node currentNode = head;
+        while(currentNode != null){
+            if(currentNode.nextNode == null){
+                currentNode.nextNode = newLastNode;
+                newLastNode.nextNode = null;
+            }
+            else {
+                currentNode = currentNode.nextNode;
+            }
+        }
+    }
+
     public void print() {
         Node current = this.head;
         while (current != null) {
