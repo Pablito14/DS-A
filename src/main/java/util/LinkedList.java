@@ -44,6 +44,20 @@ public class LinkedList {
         }
     }
 
+    public void insertBefore(int valueToInsert, int targetValue){
+        Node newValueNode;
+        Node currentNode = head;
+        while (currentNode != null){
+            if(currentNode.nextNode.valueStored == targetValue){
+                newValueNode = new Node(valueToInsert, currentNode.nextNode);
+                currentNode.nextNode = newValueNode;
+                break;
+            } else {
+                currentNode = currentNode.nextNode;
+            }
+        }
+    }
+
     public void print() {
         Node current = this.head;
         while (current != null) {
