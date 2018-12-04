@@ -1,47 +1,49 @@
 package util;
+import java.util.ArrayList;
 
 public class LinkedList {
 
     //instance variables
-    public Node head;
+    private Node head;
 
     //constructor
-    public LinkedList(){
+    public LinkedList() {
         this.head = null;
     }
 
     /*instance methods*/
-    public void insert(int valueToInsert){
-        Node latestNode = new Node(valueToInsert);
-        latestNode.nextNode = head;
+    public void insert(int valueToInsert) {
+        Node latestNode = new Node(valueToInsert, this.head);
+        this.head = latestNode;
     }
 
-    public boolean includes(int searchValue){
-        /**returns true or false if value exists within List
-         * 1. check the head too see if its empty
-         * 2. if the LL isn't empty set temp tp the head
-         * 3. look for the next node
-         * 4. loop while != null
-        **/
-        if(this.head != null){
-            Node temp = this.head;
-
-            while (temp != null){
-            if(temp.valueStored == searchValue){
+    public boolean includes(int searchValue) {
+        Node current = this.head;
+        while (current != null) {
+            if (searchValue == current.valueStored) {
                 return true;
             }
-            else {
-                temp = temp.nextNode;
-            }
-
+            else{
+                current = current.nextNode;
             }
         }
         return false;
     }
 
-    public void print(){
-        //prints all node values
+    public void print() {
+        Node current = this.head;
+        while (current != null) {
+            System.out.print(current.valueStored + " ");
+        }
 
+    }
+
+    public Node getHead(){
+        return this.head;
+    }
+
+    public String toString(){
+        return "";
     }
 
 }
