@@ -7,8 +7,8 @@ public class Node {
     public Node nextNode;
 
     //constructor
-    public Node(int incomingValue){
+    public Node(int incomingValue, Node nextNode){
         this.valueStored = incomingValue;
-        this.nextNode = null;
+        this.nextNode = nextNode;
     }
 }
