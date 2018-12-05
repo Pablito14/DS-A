@@ -3,20 +3,27 @@ import java.util.ArrayList;
 
 public class LinkedList {
 
-    //instance variables
+    /*Instance Variables*/
     private Node head;
 
-    //constructor
+    /*Constructor*/
     public LinkedList() {
         this.head = null;
     }
 
-    /*instance methods*/
+    /*Getters*/
+    public Node getHead(){
+        return this.head;
+    }
+
+    /*Instance Methods*/
+    /*Inserts new node as the head of the LinkedList*/
     public void insert(int valueToInsert) {
         Node latestNode = new Node(valueToInsert, this.head);
         this.head = latestNode;
     }
 
+    /*Searches for a node with the argument, if found return true*/
     public boolean includes(int searchValue) {
         Node current = this.head;
         while (current != null) {
@@ -30,6 +37,7 @@ public class LinkedList {
         return false;
     }
 
+    /*Adds a node to the end of the LinkedList*/
     public void append(int valueToAppend){
         Node newLastNode = new Node(valueToAppend, null);
         Node currentNode = head;
@@ -44,6 +52,7 @@ public class LinkedList {
         }
     }
 
+    /*Insets a new node before the target value of another node*/
     public void insertBefore(int valueToInsert, int targetValue){
         Node newValueNode;
         Node currentNode = head;
@@ -58,18 +67,34 @@ public class LinkedList {
         }
     }
 
+    /*Searches for a node that is (k) nodes from tail*/
+    public int getKFromTail(int k){
+        LinkedList newLL = new LinkedList();
+        Node current = this.head;
+        while (current.nextNode != null){
+            newLL.insert(current.valueStored);
+            current = current.nextNode;
+        }
+        if(newLL.head != null) {
+            int count = k - 1;
+            current = newLL.head;
+            while (count < k) {
+                current = current.nextNode;
+                count++;
+            }
+        }
+        return current.valueStored;
+    }
+
+    /*Prints entirety of this LinkedList*/
     public void print() {
         Node current = this.head;
         while (current != null) {
             System.out.print(current.valueStored + " ");
         }
-
     }
 
-    public Node getHead(){
-        return this.head;
-    }
-
+    /*uhhhhhhhh...*/
     public String toString(){
         return "";
     }

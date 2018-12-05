@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47e86a0a-e0f5-4839-9f3e-4b43b5e9654a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -20,17 +21,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4761">
-              <caret line="207" column="70" selection-start-line="207" selection-start-column="70" selection-end-line="207" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,9 +38,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/util/Node.java" />
-        <option value="$PROJECT_DIR$/src/test/java/util/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/LinkedList.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/util/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/util/LinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -63,6 +54,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,19 +68,60 @@
               <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543906272046" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544030229163" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -112,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
+  <component name="RunManager" selected="JUnit.LinkedListTest.testGetKFromTail">
     <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DS-A.test" />
       <extension name="coverage">
@@ -138,6 +172,22 @@
       <option name="PACKAGE_NAME" value="util" />
       <option name="MAIN_CLASS_NAME" value="util.LinkedListTest" />
       <option name="METHOD_NAME" value="testConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testGetKFromTail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DS-A.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="util" />
+      <option name="MAIN_CLASS_NAME" value="util.LinkedListTest" />
+      <option name="METHOD_NAME" value="testGetKFromTail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,6 +227,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest.testGetKFromTail" />
         <item itemvalue="JUnit.LinkedListTest" />
         <item itemvalue="JUnit.LinkedListTest.testIncludes" />
         <item itemvalue="JUnit.LinkedListTest.testInsert" />
@@ -198,29 +249,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_testConstructor - 2018.12.03 at 20h 55m 20s.xml">
-      <configuration name="LinkedListTest.testConstructor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testInsert - 2018.12.03 at 21h 06m 49s.xml">
-      <configuration name="LinkedListTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testInsert - 2018.12.03 at 21h 08m 07s.xml">
-      <configuration name="LinkedListTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testIncludes - 2018.12.03 at 21h 11m 26s.xml">
-      <configuration name="LinkedListTest.testIncludes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testIncludes - 2018.12.03 at 21h 12m 29s.xml">
-      <configuration name="LinkedListTest.testIncludes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testIncludes - 2018.12.03 at 21h 12m 56s.xml">
-      <configuration name="LinkedListTest.testIncludes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_testIncludes - 2018.12.03 at 21h 14m 20s.xml">
       <configuration name="LinkedListTest.testIncludes" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LinkedListTest - 2018.12.03 at 21h 23m 54s.xml">
       <configuration name="LinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.04 at 22h 50m 35s.xml">
+      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.04 at 22h 52m 15s.xml">
+      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 08m 51s.xml">
+      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 15m 11s.xml">
+      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 15m 31s.xml">
+      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 15m 47s.xml">
+      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 16m 02s.xml">
+      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 16m 32s.xml">
+      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -234,10 +291,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21768707" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21768707" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2494331" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -245,7 +301,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32882273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,20 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -306,6 +348,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4761">
           <caret line="207" column="70" selection-start-line="207" selection-start-column="70" selection-end-line="207" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+          <folding>
+            <element signature="e#2714#2715#0" expanded="true" />
+            <element signature="e#2739#2740#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

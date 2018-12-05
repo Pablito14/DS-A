@@ -39,10 +39,23 @@ public class LinkedListTest {
 //        myLL.insert(2);
 //        myLL.insert(3);
 //        myLL.insert(4);
-//        assertEquals("This tests to make sure that the print method properly prints the nodes values", myLL.print().toString(), "4 3 2 1");
+//        assertEquals("This tests to make sure that the print method properly prints3 the nodes values", myLL.print().toString(), "4 3 2 1");
 //
 //    }
 //      Not enough time to create a toString method, and then test the output.
 
-
+    @Test
+    public void testGetKFromTail(){
+        LinkedList myLL = new LinkedList();
+        myLL.insert(1);
+        myLL.insert(2);
+        myLL.insert(3);
+        myLL.insert(4);
+        myLL.insert(5);
+        myLL.insert(6);
+        myLL.insert(7);
+        myLL.insert(8);
+        int kFromNodesFromTail = myLL.getKFromTail(3);
+        assertEquals("This test returns the (K)th Node from the tail with a zero based index", 3, kFromNodesFromTail);
+    }
 }
