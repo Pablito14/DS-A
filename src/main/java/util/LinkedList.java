@@ -6,24 +6,21 @@ public class LinkedList {
     /*Instance Variables*/
     private Node head;
 
-    /*Constructor*/
-    public LinkedList() {
-        this.head = null;
-    }
-
     /*Getters*/
-    public Node getHead(){
-        return this.head;
-    }
+    public Node getHead(){return this.head;}
 
-    /*Instance Methods*/
-    /*Inserts new node as the head of the LinkedList*/
+    /*Constructor*/
+    public LinkedList() {this.head = null;}
+
+    /*****************************Instance Methods***************************/
+
+    /*Inserts a new node to the head of the LinkedList*/
     public void insert(int valueToInsert) {
         Node latestNode = new Node(valueToInsert, this.head);
         this.head = latestNode;
     }
 
-    /*Searches for a node with the argument, if found return true*/
+    /*Searches for a nodes value to contain the given parameter, if found returns true*/
     public boolean includes(int searchValue) {
         Node current = this.head;
         while (current != null) {
@@ -56,14 +53,25 @@ public class LinkedList {
     public void insertBefore(int valueToInsert, int targetValue){
         Node newValueNode;
         Node currentNode = head;
-        while (currentNode != null){
-            if(currentNode.nextNode.valueStored == targetValue){
-                newValueNode = new Node(valueToInsert, currentNode.nextNode);
-                currentNode.nextNode = newValueNode;
-                break;
-            } else {
+        if (currentNode != null){ //This seems more like a try, or circumstantial validation entry point
+            while(currentNode.nextNode.valueStored != targetValue){
                 currentNode = currentNode.nextNode;
             }
+            newValueNode = new Node(valueToInsert, currentNode.nextNode);
+            currentNode.nextNode = newValueNode;
+        }
+    }
+
+    /*Insets a new node after the target value of another node*/
+    public void insertAfter(int valueToInsert, int targetValue){
+        Node newValueNode;
+        Node currentNode = head;
+        if (currentNode != null){ //This seems more like a try, or circumstantial validation entry point
+            while(currentNode.valueStored != targetValue){
+                currentNode = currentNode.nextNode;
+            }
+            newValueNode = new Node(valueToInsert, currentNode.nextNode);
+            currentNode.nextNode = newValueNode;
         }
     }
 
@@ -84,6 +92,41 @@ public class LinkedList {
             }
         }
         return current.valueStored;
+    }
+
+    /*Merges two LinkedLists alternatively*/
+    public LinkedList mergeLists(LinkedList ll1, LinkedList ll2){
+        LinkedList mergedLL = new LinkedList();
+
+        //both heads are valid head nodes
+        if(ll1.head != null && ll2.head != null){
+            Node c1, c2;
+            c1 = ll1.head;
+            c2 = ll2.head;
+            /** GO THROUGH BOTH lINKEDlISTS ONE NODE AT A TIME UNTIL:
+             *  ONE OF THESE NODES NEXT VALUE IS A NULL,
+             *  THEN TRAVERSE THROUGH THE LEFTOVER lINKED LIST UNTIL
+             *  THE SAME CONDITION IS MET FOR THIS LINKEDLIST
+             *  */
+
+        //only ll1 has a valid head node
+        } else if (ll1.head != null && ll2.head == null){
+            Node c1;
+            c1 = ll1.head;
+            while(c1.nextNode != null){
+                mergedLL.insert();
+            }
+
+            //only ll2 has a valid head node
+        } else if (ll1.head == null && ll2.head != null){
+            Node c2;
+            c2 = ll2.head;
+
+
+        } else{
+        //both ll1 & ll2 have null heads, so do not add any new nodes to our new LinkedList
+        }
+    return mergedLL;
     }
 
     /*Prints entirety of this LinkedList*/
