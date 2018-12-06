@@ -86,6 +86,25 @@ public class LinkedList {
         return current.valueStored;
     }
 
+    /*Merges two LinkedLists alternatively*/
+    public LinkedList mergeLists(LinkedList ll1, LinkedList ll2){
+        LinkedList mergedLL = new LinkedList();
+
+        //both heads are valid head nodes
+        if(ll1.head != null && ll2.head != null){
+
+        //only ll1 has a valid head node
+        } else if (ll1.head != null && ll2.head == null){
+
+        //only ll2 has a valid head node
+        } else if (ll1.head == null && ll2.head != null){
+
+        } else{
+        //both ll1 & ll2 have null heads, so do not add any new nodes to our new LinkedList
+        }
+    return mergedLL;
+    }
+
     /*Prints entirety of this LinkedList*/
     public void print() {
         Node current = this.head;
