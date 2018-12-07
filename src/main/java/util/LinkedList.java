@@ -95,37 +95,25 @@ public class LinkedList {
     }
 
     /*Merges two LinkedLists alternatively*/
-    public LinkedList mergeLists(LinkedList ll1, LinkedList ll2){
+    public LinkedList mergeLists(LinkedList ll1, LinkedList ll2) {
         LinkedList mergedLL = new LinkedList();
-
-        //both heads are valid head nodes
-        if(ll1.head != null && ll2.head != null){
-            Node c1, c2;
-            c1 = ll1.head;
-            c2 = ll2.head;
-            /** GO THROUGH BOTH lINKEDlISTS ONE NODE AT A TIME UNTIL:
-             *  ONE OF THESE NODES NEXT VALUE IS A NULL,
-             *  THEN TRAVERSE THROUGH THE LEFTOVER lINKED LIST UNTIL
-             *  THE SAME CONDITION IS MET FOR THIS LINKEDLIST
-             *  */
-
-        //only ll1 has a valid head node
-        } else if (ll1.head != null && ll2.head == null){
-            Node c1;
-            c1 = ll1.head;
-            while(c1.nextNode != null){
-                mergedLL.insert();
+        mergedLL.head = ll1.head;
+        Node nextFromOne = ll1.head.nextNode;
+        mergedLL.head.nextNode = ll2.head;
+        Node nextFromTwo = ll2.head.nextNode;
+        Node lastInAnswer = mergedLL.head.nextNode;
+        while(nextFromOne != null || nextFromTwo != null){
+            if (nextFromOne != null) {
+                lastInAnswer.nextNode = nextFromOne;
+                lastInAnswer = lastInAnswer.nextNode;
+                nextFromOne = nextFromOne.nextNode;
             }
-
-            //only ll2 has a valid head node
-        } else if (ll1.head == null && ll2.head != null){
-            Node c2;
-            c2 = ll2.head;
-
-
-        } else{
-        //both ll1 & ll2 have null heads, so do not add any new nodes to our new LinkedList
-        }
+            if (nextFromTwo != null) {
+                lastInAnswer.nextNode = nextFromTwo;
+                lastInAnswer = lastInAnswer.nextNode;
+                nextFromTwo = nextFromTwo.nextNode;
+            }
+    }
     return mergedLL;
     }
 
