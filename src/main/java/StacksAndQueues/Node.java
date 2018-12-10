@@ -11,8 +11,8 @@ public class Node {
     public Node getNextNode(){return nextNode;}
 
     //constructor
-    public Node(int incomingValue, Node nextNode){
-        this.valueStored = incomingValue;
+    public Node(int valueStored, Node nextNode){
+        this.valueStored = valueStored;
         this.nextNode = nextNode;
     }
 }

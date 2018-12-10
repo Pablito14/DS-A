@@ -4,7 +4,8 @@
     <list default="true" id="47e86a0a-e0f5-4839-9f3e-4b43b5e9654a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StacksAndQueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StacksAndQueues/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayReverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayReverseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -25,20 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -46,8 +38,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="21" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="-40">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StacksAndQueues/StackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -57,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -75,9 +81,11 @@
         <option value="$PROJECT_DIR$/../src/test/java/ArrayReverseTest.java" />
         <option value="$PROJECT_DIR$/../src/main/java/ArrayReverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Queue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ArrayReverseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StacksAndQueues/StackTest.java" />
       </list>
     </option>
   </component>
@@ -138,6 +146,30 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="StacksAndQueues" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StacksAndQueues" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,7 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544466553334" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544470179232" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -153,6 +185,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="StacksAndQueues" />
       <recent name="" />
       <recent name="util" />
     </key>
@@ -175,24 +208,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayReverse">
+  <component name="RunManager" selected="JUnit.StackTest.testPeek">
     <configuration name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayReverse" />
       <module name="DS-A.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DS-A.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.LinkedListTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,33 +232,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testIncludes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DS-A.test" />
+    <configuration name="StackTest.testPeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codefellows.DS-A.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.LinkedListTest" />
-      <option name="METHOD_NAME" value="testIncludes" />
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackTest" />
+      <option name="METHOD_NAME" value="testPeek" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DS-A.test" />
+    <configuration name="StackTest.testPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codefellows.DS-A.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.LinkedListTest" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackTest" />
+      <option name="METHOD_NAME" value="testPop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.testPush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codefellows.DS-A.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksAndQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackTest" />
+      <option name="METHOD_NAME" value="testPush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackTest.testPeek" />
+        <item itemvalue="JUnit.StackTest.testPop" />
+        <item itemvalue="JUnit.StackTest.testPush" />
         <item itemvalue="Application.ArrayReverse" />
         <item itemvalue="JUnit.LinkedListTest.testGetKFromTail" />
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.testIncludes" />
-        <item itemvalue="JUnit.LinkedListTest.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -269,35 +304,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_testIncludes - 2018.12.03 at 21h 14m 20s.xml">
-      <configuration name="LinkedListTest.testIncludes" configurationId="JUnit" />
+    <history-entry file="StackTest_testPush - 2018.12.10 at 10h 55m 07s.xml">
+      <configuration name="StackTest.testPush" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest - 2018.12.03 at 21h 23m 54s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
+    <history-entry file="StackTest_testPush - 2018.12.10 at 10h 56m 23s.xml">
+      <configuration name="StackTest.testPush" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.04 at 22h 50m 35s.xml">
-      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    <history-entry file="StackTest_testPush - 2018.12.10 at 10h 56m 58s.xml">
+      <configuration name="StackTest.testPush" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.04 at 22h 52m 15s.xml">
-      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    <history-entry file="StackTest_testPush - 2018.12.10 at 11h 07m 31s.xml">
+      <configuration name="StackTest.testPush" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 08m 51s.xml">
-      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    <history-entry file="StackTest_testPop - 2018.12.10 at 11h 10m 20s.xml">
+      <configuration name="StackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 15m 11s.xml">
-      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    <history-entry file="StackTest_testPeek - 2018.12.10 at 11h 16m 08s.xml">
+      <configuration name="StackTest.testPeek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 15m 31s.xml">
-      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    <history-entry file="StackTest_testPush - 2018.12.10 at 11h 22m 03s.xml">
+      <configuration name="StackTest.testPush" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 15m 47s.xml">
-      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    <history-entry file="StackTest_testPush - 2018.12.10 at 11h 24m 03s.xml">
+      <configuration name="StackTest.testPush" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 16m 02s.xml">
-      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    <history-entry file="StackTest_testPush - 2018.12.10 at 11h 24m 35s.xml">
+      <configuration name="StackTest.testPush" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListTest_testGetKFromTail - 2018.12.05 at 09h 16m 32s.xml">
-      <configuration name="LinkedListTest.testGetKFromTail" configurationId="JUnit" />
+    <history-entry file="StackTest_testPop - 2018.12.10 at 11h 26m 04s.xml">
+      <configuration name="StackTest.testPop" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -313,7 +348,7 @@
     <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20332578" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14210129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2494331" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,7 +357,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329235" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24444444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,24 +399,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="21" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="300">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ArrayReverseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="-40">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StacksAndQueues/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
         </state>
       </provider>
     </entry>

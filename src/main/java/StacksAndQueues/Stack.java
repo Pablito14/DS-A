@@ -5,14 +5,17 @@ public class Stack {
     //instance variables
     private Node top = null;
 
-    //constructors
     public Stack(){
         this.top = null;
     }
 
+    public Stack(int firstNode){
+        this.top = new Node(firstNode, null);
+    }
+
     /**instance methods*/
     public void push(int value){
-        Node temp = new Node(value, top.getNextNode());
+        Node temp = new Node(value, top);
         top = temp;
     }
 
