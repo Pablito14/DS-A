@@ -3,8 +3,8 @@ package StacksAndQueues;
 public class Node {
 
     //instance variables
-    private int valueStored;
-    private Node nextNode;
+    protected int valueStored;
+    protected Node nextNode;
 
     //getters
     public int getValueStored(){return valueStored;}
