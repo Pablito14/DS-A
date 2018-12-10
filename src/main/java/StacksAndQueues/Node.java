@@ -1,10 +1,10 @@
-package util;
+package StacksAndQueues;
 
 public class Node {
 
     //instance variables
-    public int valueStored;
-    public Node nextNode;
+    private int valueStored;
+    private Node nextNode;
 
     //getters
     public int getValueStored(){return valueStored;}
@@ -15,6 +15,4 @@ public class Node {
         this.valueStored = incomingValue;
         this.nextNode = nextNode;
     }
-
-
 }

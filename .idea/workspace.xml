@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47e86a0a-e0f5-4839-9f3e-4b43b5e9654a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -25,19 +27,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../src/main/java/ArrayReverse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../src/test/java/ArrayReverseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="60">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,28 +44,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/util/Node.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/util/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/../src/main/java/util/LinkedList.java" />
         <option value="$PROJECT_DIR$/../src/test/java/ArrayReverseTest.java" />
         <option value="$PROJECT_DIR$/../src/main/java/ArrayReverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1358" />
     <option name="width" value="1390" />
     <option name="height" value="1776" />
@@ -87,39 +86,52 @@
         <subPane>
           <expand>
             <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StacksAndQueues" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="DS-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codefellows" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,10 +140,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544254292376" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544462538065" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../401-j-2/javafundementals/inheritance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -293,10 +305,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="679" y="0" width="695" height="888" extended-state="0" />
+    <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26530612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20332578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2494331" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,17 +350,33 @@
     <entry file="file://$PROJECT_DIR$/../.gitignore" />
     <entry file="file://$PROJECT_DIR$/../src/test/java/util/LinkedListTest.java" />
     <entry file="file://$PROJECT_DIR$/../src/main/java/util/LinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/../src/test/java/ArrayReverseTest.java">
+    <entry file="file://$PROJECT_DIR$/../src/test/java/ArrayReverseTest.java" />
+    <entry file="file://$PROJECT_DIR$/../src/main/java/ArrayReverse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="40">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/main/java/ArrayReverse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
