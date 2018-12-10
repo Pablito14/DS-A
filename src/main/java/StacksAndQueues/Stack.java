@@ -5,13 +5,12 @@ public class Stack {
     //instance variables
     private Node top = null;
 
-    public Stack(){
-        this.top = null;
-    }
+    /**constructors**/
+    //empty instantiation
+    public Stack(){this.top = null;}
 
-    public Stack(int firstNode){
-        this.top = new Node(firstNode, null);
-    }
+    //instantiated with one node
+    public Stack(int firstNode){this.top = new Node(firstNode, null);}
 
     /**instance methods*/
     public void push(int value){

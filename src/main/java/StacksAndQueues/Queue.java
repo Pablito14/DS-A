@@ -10,10 +10,18 @@ public class Queue {
     public Node getRear(){return rear;}
 
 
-    //constructor
+    /**constructor**/
+    //empty instantiation
     public Queue(){
         this.front = null;
         this.rear = null;
+    }
+
+    //instantiated with one node
+    public Queue(int firstNode){
+        Node temp = new Node(firstNode, null);
+        front = temp;
+        rear = temp;
     }
 
     public void enqueue(int value){
