@@ -6,8 +6,8 @@ public class PseudoQueue<T> {
      * using two stacks to do so*/
 
     //Instance Variables
-    protected Stack<T> enQueue = new Stack<>();
-    protected Stack<T> deQueue = new Stack<>();
+    protected Stack<T> enQueue;
+    protected Stack<T> deQueue;
 
     //Constructor
     public PseudoQueue(){
