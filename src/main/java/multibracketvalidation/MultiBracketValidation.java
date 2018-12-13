@@ -38,7 +38,34 @@ public class MultiBracketValidation {
     public static boolean multiBracketValidation(String stringToVal){
       lengthOfInput = stringToVal.length();
 
-    return false;
+      //gather all the opening symbols & put them into a stack and for each opening one, also push their pair into another stack to compare at the end
+      for(int i = 0; i < lengthOfInput; i ++){
+
+        //make the two stacks so we can compare
+        if(stringToVal.charAt(i) == '{'){
+          openers.push(stringToVal.charAt(i));
+          closers.push('}');
+        }else if(stringToVal.charAt(i) == '('){
+          openers.push(stringToVal.charAt(i));
+          closers.push(')');
+        }else if(stringToVal.charAt(i) == '['){
+          openers.push(stringToVal.charAt(i));
+          closers.push(']');
+        }
+
+        //start comparing -> if our opener stack still has items left to check, continue on!
+        if (openers.peek() != null){
+
+          //if they are not the appropriate pairs then just hit this early return to false
+          if(openers.peek() != closers.peek()){
+            return isSymmetricallyBalenced;
+          }
+
+        }
+
+      }
+
+    return isSymmetricallyBalenced;
   }
 
 
