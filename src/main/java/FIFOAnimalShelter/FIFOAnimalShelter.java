@@ -10,13 +10,13 @@ public class FIFOAnimalShelter {
     this.dog = new Queue();
   }
 
-  public void enQueue(Animal.Cat animal) {
-    this.cat.enqueue(animal);
-  }
+//  public void enQueue(Animal.Cat animal) {
+//    this.cat.enqueue(animal);
+//  }
 
-  public void enQueue(Animal.Dog animal) {
-    this.dog.enqueue(animal);
-  }
+//  public void enQueue(Animal.Dog animal) {
+//    this.dog.enqueue(animal);
+//  }
 
   public Object dequeue(Animal.Cat animal) {
     return this.cat.dequeue();
