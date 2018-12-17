@@ -43,10 +43,15 @@ public class BinaryTree {
     return list;
   }
 
-//  public static Array postOrder(BinaryTree tree){
-//
-//    int[] answer = {0,1};
-//    return answer;
-//  }
+  public static ArrayList<Integer> postOrder(Node node, ArrayList<Integer> list){
+    if(node == null)
+      return list;
+
+    inOrder(node.left, list);
+    list.add(node.value);
+    inOrder(node.right, list);
+
+    return list;
+  }
 
 }
