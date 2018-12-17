@@ -1,15 +1,7 @@
 package util;
-import java.util.ArrayList;
-
 public class LinkedList {
 
-    /*Instance Variables*/
-    private Node head;
-
-    /*Getters*/
-    public Node getHead(){return this.head;}
-
-    /*Constructor*/
+    public Node head;
     public LinkedList() {this.head = null;}
 
     /*****************************Instance Methods***************************/
@@ -95,7 +87,7 @@ public class LinkedList {
     }
 
     /*Merges two LinkedLists alternatively*/
-    public LinkedList mergeLists(LinkedList ll1, LinkedList ll2) {
+    public static LinkedList mergeLists(LinkedList ll1, LinkedList ll2) {
         LinkedList mergedLL = new LinkedList();
         mergedLL.head = ll1.head;
         Node nextFromOne = ll1.head.nextNode;

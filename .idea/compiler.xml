@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="codefellows.DS-A.main" target="1.10" />
+      <module name="codefellows.DS-A.test" target="1.10" />
       <module name="DS-A.main" target="1.10" />
       <module name="DS-A.test" target="1.10" />
     </bytecodeTargetLevel>
