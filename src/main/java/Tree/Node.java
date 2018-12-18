@@ -1,18 +1,16 @@
 package Tree;
 
-public class Node {
-  /*Instance variables*/
-  public int value;
-  public Node left;
-  public Node right;
-  public Node parent; //Potentially useful?
+public class Node<T> {
 
-  /*Constructor*/
-  public Node(int value, Node left, Node right){
+  public T value;
+  public Node<T> left;
+  public Node<T> right;
+
+
+  public Node(T value, Node<T> left, Node<T> right){
     this.value = value;
     this.left = left;
     this.right = right;
-    this.parent = null;
   }
 
 }
