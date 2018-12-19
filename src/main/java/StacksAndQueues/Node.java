@@ -1,18 +1,19 @@
 package StacksAndQueues;
 
-public class Node {
+public class Node<T> {
 
     //instance variables
-    protected int valueStored;
-    protected Node nextNode;
-
-    //getters
-    public int getValueStored(){return valueStored;}
-    public Node getNextNode(){return nextNode;}
+    public T valueStored;
+    public Node<T> nextNode;
 
     //constructor
-    public Node(int valueStored, Node nextNode){
+    public Node(T valueStored, Node<T> nextNode){
         this.valueStored = valueStored;
         this.nextNode = nextNode;
+    }
+
+    public Node(T valueStored){
+        this.valueStored = valueStored;
+        this.nextNode = null;
     }
 }

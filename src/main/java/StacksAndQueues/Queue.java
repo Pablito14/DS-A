@@ -1,14 +1,10 @@
 package StacksAndQueues;
 
-public class Queue {
+public class Queue<T> {
 
     //instance variables
-    private Node front;
-    private Node rear;
-
-    public Node getFront(){return front;}
-    public Node getRear(){return rear;}
-
+    public Node<T> front;
+    public Node<T> rear;
 
     /**constructor**/
     //empty instantiation
@@ -24,16 +20,26 @@ public class Queue {
         rear = temp;
     }
 
-    public void enqueue(int value){
-        Node temp = new Node(value, null);
-        rear.nextNode = temp;
-        rear = temp;
+    public void enqueue(T value){
+      if(rear == null){
+        rear = new Node<>(value, null);
+        front = rear;
+      }else {
+        rear.nextNode = new Node<>(value, null);
+        rear = rear.nextNode;
+      }
     }
 
-    public int dequeue(){
-        Node temp = getFront();
-        front = front.getNextNode();
-        return temp.getValueStored();
+    public T dequeue(){
+      if (front != null) {
+        Node<T> temp = front;
+        this.front = front.nextNode;
+        if(front == null){
+          rear = null;
+        }
+        return temp.valueStored;
+      }
+      return null;
     }
 
     public Node peek(){return front;}
