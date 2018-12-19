@@ -7,7 +7,7 @@ public class Node<T> {
     public Node<T> nextNode;
 
     //constructor
-    public Node(T valueStored, Node nextNode){
+    public Node(T valueStored, Node<T> nextNode){
         this.valueStored = valueStored;
         this.nextNode = nextNode;
     }

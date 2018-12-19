@@ -1,6 +1,7 @@
 package Tree;
+import StacksAndQueues.Queue;
+
 import java.util.ArrayList;
-import java.util.Queue;
 
 public class Tree<T> {
 
@@ -62,6 +63,19 @@ public class Tree<T> {
   public static void breadthTraversal(Tree tree) {
     if (tree.root == null) {
       return;
+    }
+    Queue<Node> q = new Queue<>();
+    q.enqueue(tree.root);
+
+    while (q.front != null) {
+      Node front = q.dequeue();
+      if (front.left != null) {
+        q.enqueue(front.left);
+      }
+      if (front.right != null) {
+        q.enqueue(front.right);
+      }
+      System.out.println(front.value);
     }
   }
 

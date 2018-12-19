@@ -23,6 +23,7 @@ public class Queue<T> {
     public void enqueue(T value){
       if(rear == null){
         rear = new Node<>(value, null);
+        front = rear;
       }else {
         rear.nextNode = new Node<>(value, null);
         rear = rear.nextNode;
