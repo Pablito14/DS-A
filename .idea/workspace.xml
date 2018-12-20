@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="47e86a0a-e0f5-4839-9f3e-4b43b5e9654a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/StacksAndQueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/StacksAndQueues/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/StacksAndQueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/StacksAndQueues/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/Tree/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/Tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/Tree/Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,20 +40,15 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../src/main/java/Tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+            <state relative-caret-position="198">
+              <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
                 <element signature="e#1334#1335#0" expanded="true" />
               </folding>
             </state>
@@ -87,10 +79,10 @@
         <option value="$PROJECT_DIR$/../src/main/java/FIFOAnimalShelter/FIFOAnimalShelter.java" />
         <option value="$PROJECT_DIR$/../src/test/java/Tree/BinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/../src/main/java/Tree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/../src/test/java/Tree/TreeTest.java" />
         <option value="$PROJECT_DIR$/../src/main/java/StacksAndQueues/Node.java" />
         <option value="$PROJECT_DIR$/../src/main/java/StacksAndQueues/Queue.java" />
         <option value="$PROJECT_DIR$/../src/main/java/Tree/Node.java" />
+        <option value="$PROJECT_DIR$/../src/test/java/Tree/TreeTest.java" />
         <option value="$PROJECT_DIR$/../src/main/java/Tree/Tree.java" />
       </list>
     </option>
@@ -108,8 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,27 +135,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
-              <item name="DS-A" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +142,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545244036289" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545285904099" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../401-j-2/javafundementals/inheritance" />
@@ -343,10 +314,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="679" y="0" width="695" height="888" extended-state="0" />
+    <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.40188384" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19652306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2494331" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,7 +334,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50037795" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.21045752" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.46549392" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49962208" weight="0.39106902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.14890401" />
@@ -457,17 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/test/java/Tree/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../src/main/java/StacksAndQueues/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -489,18 +449,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../src/test/java/Tree/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../src/main/java/Tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        <state relative-caret-position="198">
+          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
             <element signature="e#1334#1335#0" expanded="true" />
           </folding>
         </state>

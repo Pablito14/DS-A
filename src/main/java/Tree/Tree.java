@@ -78,5 +78,24 @@ public class Tree<T> {
       System.out.println(front.value);
     }
   }
+  /////////////////////////////////////////////////////////////////////////////////
+
+  public int getMaxValue(Tree<Integer> tree){
+    if(tree.root == null){
+      return 0;
+    }
+    int max, left, right;
+    max = Integer.parseInt(tree.root.value.toString());
+    left = getMaxValue(tree.root.left);
+    right = getMaxValue(Integer.parseInt(tree.root.right.value.toString()));
+
+    if(left > max){
+      max = left;
+    }
+    if(right > max){
+      max = right;
+    }
+    return max;
+  }
 
 }
