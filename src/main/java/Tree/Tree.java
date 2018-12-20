@@ -84,10 +84,10 @@ public class Tree<T> {
     if(tree.root == null){
       return 0;
     }
-    Integer max, left, right;
-    max = tree.root.value;
-    left = getMaxValue(root.left.value);
-    right = getMaxValue(root.right.value);
+    int max, left, right;
+    max = Integer.parseInt(tree.root.value.toString());
+    left = getMaxValue(tree.root.left);
+    right = getMaxValue(Integer.parseInt(tree.root.right.value.toString()));
 
     if(left > max){
       max = left;
