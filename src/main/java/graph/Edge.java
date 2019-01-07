@@ -3,16 +3,16 @@ package graph;
 public class Edge {
 
   public int weight;
-  public Node a, b;
+  public Node owner, neighbor;
 
-  public Edge(Node a, Node b){
-    this.a = a;
-    this.b = b;
+  public Edge(Node owner, Node neighbor){
+    this.owner = owner;
+    this.neighbor = neighbor;
   }
 /*With weight*/
-  public Edge(Node a, Node b, int weight){
-    this.a = a;
-    this.b = b;
+  public Edge(Node owner, Node neighbor, int weight){
+    this.owner = owner;
+    this.neighbor = neighbor;
     this.weight = weight;
   }
 }
