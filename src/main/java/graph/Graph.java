@@ -1,5 +1,6 @@
 package graph;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -9,13 +10,17 @@ public class Graph {
   List<Node> allNodes;
 
   /*Constructors*/
+  public Graph(){
+    this.allNodes = new ArrayList<>();
+  }
+
+  /*Instance Methods*/
   public Node addNode(int value) {
     Node n = new Node(value);
     allNodes.add(n);
     return n;
   }
 
-  /*Instance Methods*/
   public static void addEdge(Node a, Node b) {
     Edge edge = new Edge(a, b);
     a.neighbors.add(b);
