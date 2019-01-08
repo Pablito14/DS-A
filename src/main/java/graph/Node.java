@@ -3,12 +3,12 @@ package graph;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Node {
+public class Node<T> {
 
-  public int value;
-  public List<Node> neighbors;
+  public T value;
+  public List<Edge<T>> neighbors;
 
-  public Node(int value){
+  public Node(T value){
     this.value = value;
     this.neighbors = new ArrayList<>();
   }

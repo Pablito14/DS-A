@@ -2,12 +2,15 @@ package graph;
 
 import java.util.ArrayList;
 import java.util.List;
+import StacksAndQueues.Queue;
+import java.security.InvalidParameterException;
+import java.util.NoSuchElementException;
 
 
-public class Graph {
+public class Graph<T> {
 
   /*Instance Variables*/
-  List<Node> allNodes;
+  public List<Node<T>> allNodes;
 
   /*Constructors*/
   public Graph(){
@@ -15,28 +18,45 @@ public class Graph {
   }
 
   /*Instance Methods*/
-  public Node addNode(int value) {
-    Node n = new Node(value);
-    allNodes.add(n);
+  public Node<T> addNode(T value) {
+    Node<T> n = new Node<>(value);
+    this.allNodes.add(n);
     return n;
   }
 
-  public static void addEdge(Node a, Node b) {
-    Edge edge = new Edge(a, b);
-    a.neighbors.add(b);
+  public void addEdge(Node<T> a, Node<T> b) throws NoSuchElementException, InvalidParameterException {
+    if (this.allNodes.contains(a) && this.allNodes.contains(b)) {
+      if(a == b) {
+        throw new InvalidParameterException("An edge can only be added between two different Nodes");
+      } else {
+        a.neighbors.add(new Edge(b));
+        b.neighbors.add(new Edge(a));
+      }
+    } else {
+      throw new NoSuchElementException("Could not find one of the Nodes in the graph");
+    }
   }
+
 
   //With weight
-  public static void addEdge(Node a, Node b, int weight) {
-    Edge edge = new Edge(a, b, weight);
-    a.neighbors.add(b);
+  public void addEdge(Node<T> a, Node<T> b, int weight) throws NoSuchElementException {
+    if (this.allNodes.contains(a) && this.allNodes.contains(b)) {
+      if(a == b) {
+        throw new InvalidParameterException("An edge can only be added between two different Nodes");
+      } else {
+        a.neighbors.add(new Edge(b, weight));
+        b.neighbors.add(new Edge(a, weight));
+      }
+    } else {
+      throw new NoSuchElementException("Could not find one of the Nodes in the graph");
+    }
   }
 
-  public List<Node> getNeighbors(Node origin) {
-    return origin.neighbors;
+  public List<Edge<T>> getNeighbors(Node<T> n) {
+    return n.neighbors;
   }
 
-  public List<Node> getNodes() {
+  public List<Node<T>> getNodes() {
     return allNodes;
   }
 

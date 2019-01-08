@@ -1,20 +1,24 @@
 package graph;
 
-public class Edge {
+public class Edge<T> {
 
   public int weight;
-  public Node owner, neighbor;
+  public Node<T> neighbor;
 
-  public Edge(Node owner, Node neighbor){
-    this.owner = owner;
+  public Edge(Node<T> neighbor){
     this.neighbor = neighbor;
-    owner.neighbors.add(neighbor);
+    this.weight = 0;
   }
+
 /*With weight*/
-  public Edge(Node owner, Node neighbor, int weight){
-    this.owner = owner;
+  public Edge(Node<T> neighbor, int weight){
     this.neighbor = neighbor;
     this.weight = weight;
-    owner.neighbors.add(neighbor);
   }
+
+  @Override
+  public String toString() {
+    return "Node:" + this.neighbor + " Edge Weight:" + this.weight;
+  }
+
 }
