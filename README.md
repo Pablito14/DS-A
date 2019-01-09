@@ -4,25 +4,27 @@ This repository contains challenges relating to Data-Structures & Algorithms.
 The challenges were written primarily by Code Fellows and this README will serve as a table of contents to the individual challenges and their appropriate README's as well.
 
 ## Table of Contents
+Format:
+* Link to code - Link to docs
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+1. [reverseArray]() - [Challenge Documentation](#)
+2. [arrayShift]() - [Challenge Documentation](#)
+3. [arrayBinarySearch]() - [Challenge Documentation](#)
+4. [Linked Lists]() - [Challenge Documentation](#)
+5. [llInsertions]() - [Challenge Documentation](#)
+6. [llKthFromEnd]() - [Challenge Documentation](#)
+7. [ll_merge]() - [Challenge Documentation](#)
+8. [Stacks & Queues]() - [Challenge Documentation](#)
+9. [queueWithStacks]() - [Challenge Documentation](#)
+10. [fifo animalShelter]() - [Challenge Documentation](#)
+11. [multiBracketValidation]() - [Challenge Documentation](#)
+12. [Trees]() - [Challenge Documentation](#)
+13. [FizzBuzz]() - [Challenge Documentation](#)
+14. [breadthFirstTraversal]() - [Challenge Documentation](#)
+15. [getMax (Binary tree)]() - [Challenge Documentation](#)
 16. [Graph](src/main/java/graph) - [Challenge Documentation](#graph)
-17. [Breadth First Graph](401/src/main/java/graph/Graph.java) - [Challenge Documentation](#breadth-first-graph)
-18.
+17. [Breadth First Graph](src/main/java/graph/Graph.java) - [Challenge Documentation](#breadth-first-graph)
+18. [Get Edge](src/main/java/graph/graph.java) - [Challenge Documentation](#get-edge)
 19.
 20.
 
@@ -171,10 +173,35 @@ Implement your own Graph. The graph should be represented as an adjacency list, 
 ### Approach & Efficiency
 
 ### Solution
+image placeholder
 
 ---
 ### Challenge 17: Breadth First Graph
 Extend your graph object with a breadth-first traversal method that accepts a starting node. Without utilizing any of the built-in methods available to your language, return a collection of nodes in the order they were visited. Display the collection.
+
+### Approach and Efficiency
+
+### Solution
+image placeholder
+
+---
+### Challenge 18: get edge
+
+### Approach and Efficiency
+
+### Solution
+image placeholder
+
+---
+### Challenge 19:
+
+### Approach and Efficiency
+
+### Solution
+image placeholder
+
+---
+### Challenge 20:
 
 ### Approach and Efficiency
 

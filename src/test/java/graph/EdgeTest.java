@@ -5,13 +5,19 @@ import static org.junit.Assert.*;
 
 public class EdgeTest {
 
+  Graph graph = new Graph();
+
   //Making Nodes
-  Node a = new Node (1);
-  Node b = new Node (2);
-  Node c = new Node (3);
+  Node<Integer> a = new Node<Integer> (1);
+  Node<Integer> b = new Node<Integer> (2);
+  Node<Integer> c = new Node<Integer> (3);
+
+// I cant get my code to work how I am intending it to.
+//  graph.addNode(a);
 
   //Making Edges
-  Edge ab = new Edge(a, b);
+  Edge<Integer> ab = new Edge(a);
+  Edge<Integer> ba = new Edge(b);
 
 
   @Test

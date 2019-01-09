@@ -2,15 +2,17 @@ package graph;
 
 public class Edge<T> {
 
+  /*Instance Variables*/
   public int weight;
   public Node<T> neighbor;
 
+  //Constructor w/o weights
   public Edge(Node<T> neighbor){
     this.neighbor = neighbor;
     this.weight = 0;
   }
 
-/*With weight*/
+  //Constructor with weight
   public Edge(Node<T> neighbor, int weight){
     this.neighbor = neighbor;
     this.weight = weight;
