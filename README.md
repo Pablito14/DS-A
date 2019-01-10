@@ -25,8 +25,8 @@ Format:
 16. [Graph](src/main/java/graph) - [Challenge Documentation](#graph)
 17. [Breadth First Graph](src/main/java/graph/Graph.java) - [Challenge Documentation](#breadth-first-graph)
 18. [Get Edge](src/main/java/graph/graph.java) - [Challenge Documentation](#get-edge)
-19.
-20.
+19. [Depth First Preorder Traversal]() - [Challenge Documentation](#Depth-first-preorder-traversal)
+20.[]() - []()
 
 # 401 Code Challenge Documentation
 
@@ -193,7 +193,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 19:
+### Challenge 19: Depth first preoder traversal
 
 ### Approach and Efficiency
 
