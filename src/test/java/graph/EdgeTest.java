@@ -5,24 +5,17 @@ import static org.junit.Assert.*;
 
 public class EdgeTest {
 
-  Graph graph = new Graph();
+  Graph graphite = new Graph();
 
-  //Making Nodes
-  Node<Integer> a = new Node<Integer> (1);
-  Node<Integer> b = new Node<Integer> (2);
-  Node<Integer> c = new Node<Integer> (3);
-
-// I cant get my code to work how I am intending it to.
-//  graph.addNode(a);
-
-  //Making Edges
-  Edge<Integer> ab = new Edge(a);
-  Edge<Integer> ba = new Edge(b);
-
+  Node a = graphite.addNode(1);
+  Node b = graphite.addNode (2);
+  Node c = graphite.addNode(3);
 
   @Test
   public void testEdge(){
-    assertTrue("There should be an edge from A to B", a.neighbors.contains(b));
-    assertFalse("There should not be an edge from A to C", a.neighbors.contains(c));
+    graphite.addEdge(a, b);
+    assertTrue("There should be an edge from A to B", a.neighbors.size() == 1);
+    assertTrue("There should be an edge from B to A", b.neighbors.size() == 1);
+    assertFalse("There should not be an edge from A to C", c.neighbors.size() > 1);
   }
 }
