@@ -26,7 +26,8 @@ Format:
 17. [Breadth First Graph](src/main/java/graph/Graph.java) - [Challenge Documentation](#breadth-first-graph)
 18. [Get Edge](src/main/java/graph/graph.java) - [Challenge Documentation](#get-edge)
 19. [Depth First Preorder Traversal]() - [Challenge Documentation](#Depth-first-preorder-traversal)
-20.[]() - []()
+20. [Hashtable](#src/main/java/Hashtable) - [Challenge Documentation](#Hashtable)
+21. []() - []()
 
 # 401 Code Challenge Documentation
 
@@ -201,9 +202,14 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 20:
+### Challenge 20: Hashtable
+
+* A method/function named `add` that takes in both the key and value. This method should hash the key and add the key and value pair to the table.
+* A method/function named `Find` that takes in the key and returns the value from key/value pair.
+* A method/function named `contains` that takes in the key and returns if the key exists in the table already.
+* A method/function named `GetHash` that takes in a key and returns the index in the array the key is stored.
 
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
+Lab challenge (needs a whiteboard after class)
