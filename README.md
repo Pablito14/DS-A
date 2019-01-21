@@ -22,12 +22,12 @@ Format:
 13. [FizzBuzz]() - [Challenge Documentation](#)
 14. [breadthFirstTraversal]() - [Challenge Documentation](#)
 15. [getMax (Binary tree)]() - [Challenge Documentation](#)
-16. [Graph](src/main/java/graph) - [Challenge Documentation](#graph)
+16. [Graph](src/main/java/graph) - [Challenge Documentation](#challenge-16:-graph)
 17. [Breadth First Graph](src/main/java/graph/Graph.java) - [Challenge Documentation](#breadth-first-graph)
-18. [Get Edge](src/main/java/graph/graph.java) - [Challenge Documentation](#get-edge)
+18. [Get Edge](src/main/java/graph/Graph.java) - [Challenge Documentation](#get-edge)
 19. [Depth First Preorder Traversal]() - [Challenge Documentation](#Depth-first-preorder-traversal)
-20. [Hashtable](#src/main/java/Hashtable) - [Challenge Documentation](#Hashtable)
-21. []() - []()
+20. [Hashtable](src/main/java/Hashtable) - [Challenge Documentation](#Hashtable)
+21. [Insertion Sort](src/main/java/InsertionSort/InsertionSort.java) - [Challenge Documentation](#challenge-21:-insertion-sort)
 
 # 401 Code Challenge Documentation
 
@@ -213,3 +213,15 @@ image placeholder
 
 ### Solution
 Lab challenge (needs a whiteboard after class)
+
+---
+### Challenge 21: Insertion sort
+Sorts an array from left to right iteratively placing each new element into the appropriate index.
+
+### Approach and Efficiency
+At it’s worst, the array is in the reverse order, giving a quadratic runtime of O(n^2), but on average it isn't the worst possible runtime so it will still be O(n^2) with any data set.
+
+
+
+### Solution
+image placeholder
