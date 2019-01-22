@@ -7,31 +7,31 @@ The challenges were written primarily by Code Fellows and this README will serve
 Format:
 * Link to code - Link to docs
 
-1. [reverseArray]() - [Challenge Documentation](#)
-2. [arrayShift]() - [Challenge Documentation](#)
-3. [arrayBinarySearch]() - [Challenge Documentation](#)
-4. [Linked Lists]() - [Challenge Documentation](#)
-5. [llInsertions]() - [Challenge Documentation](#)
-6. [llKthFromEnd]() - [Challenge Documentation](#)
-7. [ll_merge]() - [Challenge Documentation](#)
-8. [Stacks & Queues]() - [Challenge Documentation](#)
-9. [queueWithStacks]() - [Challenge Documentation](#)
-10. [fifo animalShelter]() - [Challenge Documentation](#)
-11. [multiBracketValidation]() - [Challenge Documentation](#)
-12. [Trees]() - [Challenge Documentation](#)
-13. [FizzBuzz]() - [Challenge Documentation](#)
-14. [breadthFirstTraversal]() - [Challenge Documentation](#)
-15. [getMax (Binary tree)]() - [Challenge Documentation](#)
-16. [Graph](src/main/java/graph) - [Challenge Documentation](#challenge-16:-graph)
-17. [Breadth First Graph](src/main/java/graph/Graph.java) - [Challenge Documentation](#breadth-first-graph)
-18. [Get Edge](src/main/java/graph/Graph.java) - [Challenge Documentation](#get-edge)
-19. [Depth First Preorder Traversal]() - [Challenge Documentation](#Depth-first-preorder-traversal)
-20. [Hashtable](src/main/java/Hashtable) - [Challenge Documentation](#Hashtable)
-21. [Insertion Sort](src/main/java/InsertionSort/InsertionSort.java) - [Challenge Documentation](#challenge-21:-insertion-sort)
+1. [reverseArray]() - [Challenge Documentation](#challenge-1-reversearray)
+2. [arrayShift]() - [Challenge Documentation](#challenge-2-arrayshift)
+3. [arrayBinarySearch]() - [Challenge Documentation](#challenge-3-arraybinarysearch)
+4. [Linked Lists]() - [Challenge Documentation](#challenge-4-linked-lists)
+5. [llInsertions]() - [Challenge Documentation](#challenge-5-llinsertions)
+6. [llKthFromEnd]() - [Challenge Documentation](#challenge-6-llkthfromend)
+7. [ll_merge]() - [Challenge Documentation](#challenge-7-ll_merge)
+8. [Stacks & Queues]() - [Challenge Documentation](#challenge-8-stacks--queues)
+9. [queueWithStacks]() - [Challenge Documentation](#challenge-9-queuewithstacks)
+10. [fifo animalShelter]() - [Challenge Documentation](#challenge-10-fifo-animalshelter)
+11. [multiBracketValidation]() - [Challenge Documentation](#challenge-11-multibracketvalidation)
+12. [Trees]() - [Challenge Documentation](#challenge-12-trees)
+13. [FizzBuzz]() - [Challenge Documentation](#challenge-13-fizzbuzz)
+14. [breadthFirstTraversal]() - [Challenge Documentation](#challenge-14-breadthfirsttraversal)
+15. [getMax (Binary tree)]() - [Challenge Documentation](#challenge-15-getmax)
+16. [Graph](src/main/java/graph) - [Challenge Documentation](#challenge-16-graph)
+17. [Breadth First Graph](src/main/java/graph/Graph.java) - [Challenge Documentation](#challenge-17-breadth-first-graph)
+18. [Get Edge](src/main/java/graph/Graph.java) - [Challenge Documentation](#challenge-18-get-edge)
+19. [Depth First Preorder Traversal]() - [Challenge Documentation](#challenge-19-depth-first-preoder-traversal)
+20. [Hashtable](src/main/java/Hashtable) - [Challenge Documentation](#challenge-20-hashtable)
+21. [Insertion Sort](src/main/java/InsertionSort/InsertionSort.java) - [Challenge Documentation](#challenge-21-insertion-sort)
 
 # 401 Code Challenge Documentation
 
-### Challenge 1:
+### Challenge 1: reverseArray
 
 ### Approach and Efficiency
 
@@ -39,7 +39,7 @@ Format:
 image placeholder
 
 ---
-### Challenge 2:
+### Challenge 2: ArrayShift
 
 ### Approach and Efficiency
 
@@ -47,7 +47,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 3:
+### Challenge 3: arrayBinarySearch
 
 ### Approach and Efficiency
 
@@ -55,7 +55,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 4:
+### Challenge 4: Linked Lists
 
 ### Approach and Efficiency
 
@@ -63,7 +63,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 5:
+### Challenge 5: LLInsertions
 
 ### Approach and Efficiency
 
@@ -71,7 +71,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 6:
+### Challenge 6: LLKthFromEnd
 
 ### Approach and Efficiency
 
@@ -79,7 +79,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 7:
+### Challenge 7: LL_merge
 
 ### Approach and Efficiency
 
@@ -87,7 +87,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 8:
+### Challenge 8: Stacks & Queues
 
 ### Approach and Efficiency
 
@@ -95,7 +95,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 9:
+### Challenge 9: queueWithStacks
 
 ### Approach and Efficiency
 
@@ -103,7 +103,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 10:
+### Challenge 10: fifo animalShelter
 
 ### Approach and Efficiency
 
@@ -111,7 +111,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 11:
+### Challenge 11: multiBracketValidation
 
 ### Approach and Efficiency
 
@@ -119,7 +119,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 12:
+### Challenge 12: Trees
 
 ### Approach and Efficiency
 
@@ -127,7 +127,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 13:
+### Challenge 13: FizzBuzz
 
 ### Approach and Efficiency
 
@@ -135,7 +135,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 14:
+### Challenge 14: breadthFirstTraversal
 
 ### Approach and Efficiency
 
@@ -143,7 +143,7 @@ image placeholder
 image placeholder
 
 ---
-### Challenge 15:
+### Challenge 15: getMax
 
 ### Approach and Efficiency
 
@@ -219,9 +219,6 @@ Lab challenge (needs a whiteboard after class)
 Sorts an array from left to right iteratively placing each new element into the appropriate index.
 
 ### Approach and Efficiency
-At it’s worst, the array is in the reverse order, giving a quadratic runtime of O(n^2), but on average it isn't the worst possible runtime so it will still be O(n^2) with any data set.
+At it’s worst, the array is in the reverse order, giving a runtime of O(n^2), but on average it isn't going to be the worst possible runtime so it will still be O(n^2) with any data set. As for space, all this is doing is sorting the same array in place so it takes the same amount of space or O(1)
 
 
-
-### Solution
-image placeholder

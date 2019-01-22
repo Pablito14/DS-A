@@ -10,12 +10,11 @@ public class InsertionSort {
       int j = i - 1;
       int temp = unsortedArray[i];
 
-    //magic
-    while (j >= 0 && temp < unsortedArray[j]){
-      unsortedArray[j + 1] = unsortedArray[j];
-      j = j - 1;
-    }
-    unsortedArray[j + 1] = temp;
+      while (j >= 0 && temp < unsortedArray[j]){
+          unsortedArray[j + 1] = unsortedArray[j];
+          j = j - 1;
+      }
+      unsortedArray[j + 1] = temp;
     }
     return unsortedArray;
   }
