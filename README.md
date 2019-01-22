@@ -221,4 +221,12 @@ Sorts an array from left to right iteratively placing each new element into the 
 ### Approach and Efficiency
 At it’s worst, the array is in the reverse order, giving a runtime of O(n^2), but on average it isn't going to be the worst possible runtime so it will still be O(n^2) with any data set. As for space, all this is doing is sorting the same array in place so it takes the same amount of space or O(1)
 
+---
+### Challenge 22: mergeSort
 
+### Approach and Efficiency
+
+### Solution
+<p float="left">
+    <img src="./assets/mergeSort.jpg"/>
+</p>
