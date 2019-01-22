@@ -36,7 +36,9 @@ Format:
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
+<p float="left">
+    <img src="./assets/array_reverse.jpg"/>
+</p>
 
 ---
 ### Challenge 2: ArrayShift
@@ -44,7 +46,9 @@ image placeholder
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
+<p float="left">
+    <img src="./assets/array_shift.jpg"/>
+</p>
 
 ---
 ### Challenge 3: arrayBinarySearch
@@ -52,9 +56,11 @@ image placeholder
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
-
+<p float="left">
+    <img src="./assets/array_binary_search"/>
+</p>
 ---
+
 ### Challenge 4: Linked Lists
 
 ### Approach and Efficiency
@@ -76,7 +82,9 @@ image placeholder
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
+<p float="left">
+    <img src="./assets/ll_kth_from_end.jpg"/>
+</p>
 
 ---
 ### Challenge 7: LL_merge
@@ -84,7 +92,9 @@ image placeholder
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
+<p float="left">
+    <img src="./assets/ll_merge.jpg"/>
+</p>
 
 ---
 ### Challenge 8: Stacks & Queues
@@ -108,7 +118,9 @@ image placeholder
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
+<p float="left">
+    <img src="./assets/fifo_animal_shelter.jpg"/>
+</p>
 
 ---
 ### Challenge 11: multiBracketValidation
@@ -140,7 +152,9 @@ image placeholder
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
+<p float="left">
+    <img src="./assets/breadth_first_traversal.tif"/>
+</p>
 
 ---
 ### Challenge 15: getMax
@@ -191,7 +205,9 @@ image placeholder
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
+<p float="left">
+    <img src="./assets/get_edge.jpg"/>
+</p>
 
 ---
 ### Challenge 19: Depth first preoder traversal
@@ -199,7 +215,9 @@ image placeholder
 ### Approach and Efficiency
 
 ### Solution
-image placeholder
+<p float="left">
+    <img src="./assets/depth_first_preorder_traversal.PNG"/>
+</p>
 
 ---
 ### Challenge 20: Hashtable
