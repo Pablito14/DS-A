@@ -248,3 +248,15 @@ At it’s worst, the array is in the reverse order, giving a runtime of O(n^2), 
 <p float="left">
     <img src="./assets/mergeSort.jpg"/>
 </p>
+
+---
+### Challenge 22: quickSort
+Write a function that accepts an array of integers, and returns an array sorted by a recursive quickSort algorithm.
+
+### Approach and Efficiency
+QuickSort has an efficiency of O(nLogn). This is because we always are dividing our problem until we reach a simple condition (the base case) then we meet that condition and that allows us to solve the next piece up the stack and that can potentially be a worst case scenario, but it most likely won't have t odo 100% of the work every time.
+
+### Solution
+<p float="left">
+    <img src="./assets/img"/>
+</p>
